@@ -1,22 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.939059e9.css",
-    "main.js": "/static/js/main.ce1ccdcd.js",
+    "main.css": "/static/css/main.2867f2bf.css",
+    "main.js": "/static/js/main.de63a876.js",
     "static/media/banner-1.jpg": "/static/media/banner-1.322629be3a8bdd0f8763.jpg",
     "static/media/banner-2.jpg": "/static/media/banner-2.9765306f93f24062ef40.jpg",
+    "static/media/forest-duplex-2.jpg": "/static/media/forest-duplex-2.c15e55ef487b7cfdcd84.jpg",
+    "static/media/Wholesome Ayurvedic Nutrition.jpg": "/static/media/Wholesome Ayurvedic Nutrition.344f7a112be0fdc1c46c.jpg",
     "static/media/luxury-room-1.jpg": "/static/media/luxury-room-1.aac4112dfd9b04b8b971.jpg",
     "static/media/banner-3.jpg": "/static/media/banner-3.b10503880b4d2deee73f.jpg",
     "static/media/banner-4.jpg": "/static/media/banner-4.44cc1a6eeeefb3b68254.jpg",
     "static/media/luxury-room-3.jpg": "/static/media/luxury-room-3.abfdc8175a1f5782a82c.jpg",
+    "static/media/Restorative Yoga and Meditation.jpg": "/static/media/Restorative Yoga and Meditation.85261af83984d17ec5a7.jpg",
     "static/media/about.jpg": "/static/media/about.8ce27db55c9a9a5f996e.jpg",
     "static/media/nature-immersion.jpg": "/static/media/nature-immersion.8ce27db55c9a9a5f996e.jpg",
+    "static/media/beach-retreat.jpg": "/static/media/beach-retreat.72cdcc64fc4feb5d5539.jpg",
     "static/media/luxury-room-2.jpg": "/static/media/luxury-room-2.1d529aa5e4e3cf6da343.jpg",
+    "static/media/forest-duplex-3.jpg": "/static/media/forest-duplex-3.11c5503e60c048c5eee7.jpg",
+    "static/media/luxury-suit-3.jpg": "/static/media/luxury-suit-3.d5eecf005967221eee46.jpg",
+    "static/media/forest-studio-1.jpg": "/static/media/forest-studio-1.5eb7317c9e58449de515.jpg",
+    "static/media/forest-studio-3.jpg": "/static/media/forest-studio-3.d73c5c54e658a5d7fa79.jpg",
+    "static/media/logo-mountain-retreat.jpg": "/static/media/logo-mountain-retreat.f5037df1ee0dba95f3bd.jpg",
+    "static/media/luxury-suit-2.jpg": "/static/media/luxury-suit-2.d3e522b2f86f8ce106a5.jpg",
+    "static/media/forest-duplex-1.jpg": "/static/media/forest-duplex-1.a86aa5e4f732bed03383.jpg",
+    "static/media/luxury-suit-1.jpg": "/static/media/luxury-suit-1.99b7ffa5410602883c35.jpg",
+    "static/media/forest-studio-2.jpg": "/static/media/forest-studio-2.ec0cb6dce5b49dbca378.jpg",
+    "static/media/Tradition of Ayurveda.jpg": "/static/media/Tradition of Ayurveda.7919ca1d64f4622e5afe.jpg",
+    "static/media/Mindfulness Activities.jpg": "/static/media/Mindfulness Activities.d1fd24562c111d5429bd.jpg",
     "index.html": "/index.html",
-    "main.939059e9.css.map": "/static/css/main.939059e9.css.map",
-    "main.ce1ccdcd.js.map": "/static/js/main.ce1ccdcd.js.map"
+    "main.2867f2bf.css.map": "/static/css/main.2867f2bf.css.map",
+    "main.de63a876.js.map": "/static/js/main.de63a876.js.map"
   },
   "entrypoints": [
-    "static/css/main.939059e9.css",
-    "static/js/main.ce1ccdcd.js"
+    "static/css/main.2867f2bf.css",
+    "static/js/main.de63a876.js"
   ]
 }
