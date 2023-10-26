@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.939059e9.css",
+    "main.js": "/static/js/main.ce1ccdcd.js",
+    "static/media/banner-1.jpg": "/static/media/banner-1.322629be3a8bdd0f8763.jpg",
+    "static/media/banner-2.jpg": "/static/media/banner-2.9765306f93f24062ef40.jpg",
+    "static/media/luxury-room-1.jpg": "/static/media/luxury-room-1.aac4112dfd9b04b8b971.jpg",
+    "static/media/banner-3.jpg": "/static/media/banner-3.b10503880b4d2deee73f.jpg",
+    "static/media/banner-4.jpg": "/static/media/banner-4.44cc1a6eeeefb3b68254.jpg",
+    "static/media/luxury-room-3.jpg": "/static/media/luxury-room-3.abfdc8175a1f5782a82c.jpg",
+    "static/media/about.jpg": "/static/media/about.8ce27db55c9a9a5f996e.jpg",
+    "static/media/nature-immersion.jpg": "/static/media/nature-immersion.8ce27db55c9a9a5f996e.jpg",
+    "static/media/luxury-room-2.jpg": "/static/media/luxury-room-2.1d529aa5e4e3cf6da343.jpg",
+    "index.html": "/index.html",
+    "main.939059e9.css.map": "/static/css/main.939059e9.css.map",
+    "main.ce1ccdcd.js.map": "/static/js/main.ce1ccdcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.939059e9.css",
+    "static/js/main.ce1ccdcd.js"
+  ]
+}

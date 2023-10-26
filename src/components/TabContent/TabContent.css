@@ -1,0 +1,31 @@
+.react-tabs__tab--selected::after{
+    content: none!important;
+}
+.react-tabs__tab--selected{
+    background-color: #295b52;
+    color: white;
+}
+
+.react-tabs__tab-panel {
+    min-height: 600px;
+    overflow-y: auto;
+  }
+
+  .react-tabs__tab-list::-webkit-scrollbar {
+    display: none;
+  }
+  .react-tabs__tab{
+    bottom: 0!important;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .react-tabs__tab-list{
+      justify-content: flex-start!important;
+    }
+    .react-tabs__tab{
+      display: flex!important;
+      align-items: center!important;
+      text-align: center!important;
+      text-transform: capitalize!important;
+    }
+  }
