@@ -14,3 +14,10 @@
 .swiper-button-next{
     left: 52%!important;
 }
+
+@media only screen and (max-width: 1024px) {
+    .swiper-button-prev{
+        left: 42.5%!important;
+    }
+ 
+  }
