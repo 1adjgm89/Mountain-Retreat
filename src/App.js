@@ -4,7 +4,7 @@ import TabContent from "./components/TabContent/TabContent";
 import Rooms from "./components/Rooms/Rooms";
 import Location from "./components/Location/Location";
 import Gallery from "./components/Gallery/Gallery";
-import AboutRetreat from "./components/AboutRetreat/AboutRetreat";
+// import AboutRetreat from "./components/AboutRetreat/AboutRetreat";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -19,7 +19,7 @@ function App() {
       <Rooms/>
       <Location/>
       <Gallery/>
-      <AboutRetreat/>
+      {/* <AboutRetreat/> */}
       <ContactForm/>
       <Footer/>
     </>

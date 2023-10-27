@@ -1,3 +1,10 @@
 .swiper-pagination-bullet-active{
     background-color: #ba9803;
 }
+.swiper-pagination-bullet{
+    width: 16px;
+    height: 16px;
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin-right: 15px!important;
+}
