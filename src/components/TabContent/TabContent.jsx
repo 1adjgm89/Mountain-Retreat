@@ -15,11 +15,11 @@ const TabContent = () => {
     <div id='specialities'>
     <Tabs>
       <TabList className={"react-tabs__tab-list !border-b-0 flex justify-center !mb-10 overflow-x-auto overflow-y-hidden !sm:justify-start !md:justify-start !xs:justify-start"}>
-        <Tab className={"react-tabs__tab focus:after:content-none uppercase text-[18px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150 cursor-pointer md:text-[18px]"} style={{borderBottom:"1px solid"}}>NATURE IMMERSION</Tab>
-        <Tab className={"react-tabs__tab uppercase text-[18px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150"} style={{borderBottom:"1px solid"}}>TRADITION OF AYURVEDA</Tab>
-        <Tab className={"react-tabs__tab uppercase text-[18px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150"} style={{borderBottom:"1px solid"}}>RESTORATIVE YOGA AND MEDITATION</Tab>
-        <Tab className={"react-tabs__tab uppercase text-[18px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150"} style={{borderBottom:"1px solid"}}>AYURVEDIC NUTRITION</Tab>
-        <Tab className={"react-tabs__tab uppercase text-[18px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150 "} style={{borderBottom:"1px solid"}}>MINDFULNESS ACTIVITIES</Tab>
+        <Tab className={"react-tabs__tab focus:after:content-none uppercase text-[16px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150 cursor-pointer md:text-[18px]"} style={{borderBottom:"1px solid"}}>NATURE IMMERSION</Tab>
+        <Tab className={"react-tabs__tab uppercase text-[16px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150"} style={{borderBottom:"1px solid"}}>TRADITION OF AYURVEDA</Tab>
+        <Tab className={"react-tabs__tab uppercase text-[16px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150"} style={{borderBottom:"1px solid"}}>RESTORATIVE YOGA AND MEDITATION</Tab>
+        <Tab className={"react-tabs__tab uppercase text-[16px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150"} style={{borderBottom:"1px solid"}}>AYURVEDIC NUTRITION</Tab>
+        <Tab className={"react-tabs__tab uppercase text-[16px] text-[#295b52] border !border-[#295b52] !px-[30px] !py-[15px] !rounded-none mr-5 hover:bg-[#295b52] hover:text-white transition ease-in-out delay-150 "} style={{borderBottom:"1px solid"}}>MINDFULNESS ACTIVITIES</Tab>
       </TabList>
 
       <TabPanel className={"react-tabs__tab-panel bg-[#e1e6e6] py-12"}>

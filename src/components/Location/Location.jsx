@@ -6,12 +6,14 @@ function Location() {
       <div className="w-4/5">
         <div className="flex lg:flex-row sm:flex-col md:flex-col">
           <div className="lg:w-1/3 bg-[#295b52] p-8 sm:w-full md:w-full">
-            <p className="text-left font-medium mb-8 text-white text-[20px]">
+            <p className="text-left font-medium mb-8 text-white text-[16px]">
               Take the precious step towards the road to abundant health,
               wellness and productive joyful living with us at Sitaram Mountain
               Retreat in Munnar and experience the richness of a holistic way of
               life.
             </p>
+            <p className="text-left font-bold mb-4 text-[#d1a13b] text-[18px]">Address:</p>
+            <p className="text-left font-medium mb-8 text-white text-[16px]">Pallivasal Estate, Paracherivu Moolakada, PO, Munnar, Kerala 685612,<br/>Phone: <a href="tel:09495821617" className="text-[#d1a13b]"> 094958 21617</a></p>
           </div>
           <div className="w-2/3 sm:w-full md:w-full">
             <iframe
