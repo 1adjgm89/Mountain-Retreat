@@ -5,15 +5,22 @@ import "swiper/css";
 import 'swiper/css/navigation';
 import './gallery.css'
 
-import bannerOne from "./../../assets/img/banner-1.jpg";
-import bannerTwo from "./../../assets/img/banner-2.jpg";
-import bannerThree from "./../../assets/img/banner-3.jpg";
-import bannerFour from "./../../assets/img/banner-4.jpg";
+import bannerOne from "./../../assets/img/Banner/Banner_1.jpg";
+import bannerTwo from "./../../assets/img/Banner/Banner_2.jpg";
+import bannerThree from "./../../assets/img/Banner/Banner_3.jpg";
+import bannerFour from "./../../assets/img/Banner/Banner_4.jpg";
+import luxuryRoomOne from './../../assets/img/Luxury room/side-view-of-guest-accommodation_48142925317_o.png';
+import luxurySuitOne from './../../assets/img/Luxury suite room/Treetop-Studio-Room-Exterior-web-1-1.jpg';
+import forestDuplex2 from './../../assets/img/Forest Bathing Duplex Cottage/Forest_Bathing Duplex_Cottage_2.jpg';
+import forestDuplex1 from './../../assets/img/Forest Bathing Duplex Cottage/Forest_Bathing Duplex_Cottage_1.jpg';
+import forestStudio5 from './../../assets/img/Forest Bathing Studio Cottage/Treetop-Studio-Room-web-1-1.jpg';
+import forestStudio1 from './../../assets/img/Forest Bathing Studio Cottage/Forest_Bathing_Studio_Cottage_1.jpg';
+
 
 function Gallery() {
     return(
         <div className="flex flex-col justify-center items-center mb-12" id="gallery">
-        <div className="w-4/5">
+        <div className="lg:w-4/5 sm:w-full md:w-full ">
             <Swiper
       // install Swiper modules
       modules={[Navigation,Autoplay]}
@@ -23,37 +30,80 @@ function Gallery() {
       }}
       slidesPerView={1}
       navigation={true}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+      onSwiper={()=>{}}
+      onSlideChange={()=>{}}
     >
       <SwiperSlide>
         <img
           src={bannerOne}
           alt="Sitaram Mountain Retreat"
-          className="w-full"
+          className="w-full lg:max-h-[500px] object-cover"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
           src={bannerTwo}
           alt="Sitaram Mountain Retreat"
-          className="w-full"
+          className="w-full lg:max-h-[500px]  object-cover"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
           src={bannerThree}
           alt="Sitaram Mountain Retreat"
-          className="w-full"
+          className="w-full lg:max-h-[500px] object-cover"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
           src={bannerFour}
           alt="Sitaram Mountain Retreat"
-          className="w-full"
+          className="w-full lg:max-h-[500px] object-cover"
         />
       </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src={forestStudio1}
+          alt="Sitaram Mountain Retreat"
+          className="w-full lg:max-h-[500px] object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src={forestStudio5}
+          alt="Sitaram Mountain Retreat"
+          className="w-full lg:max-h-[500px] object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src={forestDuplex1}
+          alt="Sitaram Mountain Retreat"
+          className="w-full lg:max-h-[500px] object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src={forestDuplex2}
+          alt="Sitaram Mountain Retreat"
+          className="w-full lg:max-h-[500px] object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src={luxurySuitOne}
+          alt="Sitaram Mountain Retreat"
+          className="w-full lg:max-h-[500px] object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          src={luxuryRoomOne}
+          alt="Sitaram Mountain Retreat"
+          className="w-full lg:max-h-[500px] object-cover"
+        />
+      </SwiperSlide>
+      
     </Swiper>
         </div>
         </div>

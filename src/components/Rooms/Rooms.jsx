@@ -6,21 +6,26 @@ import "swiper/css/pagination";
 import "./rooms.css";
 
 // images
-import luxuryRoomOne from './../../assets/img/luxury-room-1.jpg';
-import luxuryRoomTwo from './../../assets/img/luxury-room-2.jpg';
-import luxuryRoomThree from './../../assets/img/luxury-room-3.jpg';
+import luxuryRoomThree from './../../assets/img/Luxury room/Luxury-Room-Bathroom-web-scaled.png';
+import luxuryRoomTwo from './../../assets/img/Luxury room/Luxury-Room-scaled.png';
+import luxuryRoomOne from './../../assets/img/Luxury room/side-view-of-guest-accommodation_48142925317_o.png';
 
-import luxurySuitOne from './../../assets/img/luxury-suit-1.jpg';
-import luxurySuitTwo from './../../assets/img/luxury-suit-2.jpg';
-import luxurySuitThree from './../../assets/img/luxury-suit-3.jpg';
+import  luxurySuitThree from './../../assets/img/Luxury suite room/Luxury-Suit-Bathroom-web.jpg';
+import luxurySuitTwo from './../../assets/img/Luxury suite room/Luxury-Suit-room-web.jpg';
+import luxurySuitOne from './../../assets/img/Luxury suite room/Treetop-Studio-Room-Exterior-web-1-1.jpg';
 
-import forestStudio1 from './../../assets/img/forest-studio-1.jpg';
-import forestStudio2 from './../../assets/img/forest-studio-2.jpg';
-import forestStudio3 from './../../assets/img/forest-studio-3.jpg';
+import forestStudio1 from './../../assets/img/Forest Bathing Studio Cottage/Forest_Bathing_Studio_Cottage_1.jpg';
+import forestStudio2 from './../../assets/img/Forest Bathing Studio Cottage/Forest_Bathing_Studio_Cottage_2.jpg';
+import forestStudio3 from './../../assets/img/Forest Bathing Studio Cottage/Forest_Bathing_Studio_Cottage_3.jpg';
+import forestStudio4 from './../../assets/img/Forest Bathing Studio Cottage/Forest_Bathing_Studio_Cottage_4.jpg';
+import forestStudio5 from './../../assets/img/Forest Bathing Studio Cottage/Treetop-Studio-Room-web-1-1.jpg';
+import forestStudio6 from './../../assets/img/Forest Bathing Studio Cottage/Treetop-Studio-Room-with-Model-3-WEB-1.jpg';
 
-import forestDuplex1 from './../../assets/img/forest-duplex-1.jpg';
-import forestDuplex2 from './../../assets/img/forest-duplex-2.jpg';
-import forestDuplex3 from './../../assets/img/forest-duplex-3.jpg';
+import forestDuplex1 from './../../assets/img/Forest Bathing Duplex Cottage/Forest_Bathing Duplex_Cottage_1.jpg';
+import forestDuplex2 from './../../assets/img/Forest Bathing Duplex Cottage/Forest_Bathing Duplex_Cottage_2.jpg';
+import forestDuplex3 from './../../assets/img/Forest Bathing Duplex Cottage/Forest_Bathing Duplex_Cottage_3.jpg';
+import forestDuplex4 from './../../assets/img/Forest Bathing Duplex Cottage/Forest_Bathing Duplex_Cottage_4.jpg';
+import forestDuplex5 from './../../assets/img/Forest Bathing Duplex Cottage/Forest_Bathing Duplex_Cottage_5.jpg';
 
 function Rooms(){
 
@@ -142,6 +147,27 @@ function Rooms(){
                         className="w-full max-h-[500px]"
                         />
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <img
+                        src={forestStudio4}
+                        alt="Sitaram Mountain Retreat"
+                        className="w-full max-h-[500px]"
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img
+                        src={forestStudio5}
+                        alt="Sitaram Mountain Retreat"
+                        className="w-full max-h-[500px]"
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img
+                        src={forestStudio6}
+                        alt="Sitaram Mountain Retreat"
+                        className="w-full max-h-[500px]"
+                        />
+                    </SwiperSlide>
                 </Swiper>
             </div>
             <div className="lg:w-2/4 md:w-full sm:w-full sm:order-1 md:order-1 lg:order-2">
@@ -190,6 +216,20 @@ function Rooms(){
                     <SwiperSlide>
                         <img
                         src={forestDuplex3}
+                        alt="Sitaram Mountain Retreat"
+                        className="w-full max-h-[500px]"
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img
+                        src={forestDuplex4}
+                        alt="Sitaram Mountain Retreat"
+                        className="w-full max-h-[500px]"
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img
+                        src={forestDuplex5}
                         alt="Sitaram Mountain Retreat"
                         className="w-full max-h-[500px]"
                         />

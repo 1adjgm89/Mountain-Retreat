@@ -1,7 +1,7 @@
 import React,{ useState } from "react";
 import { send } from 'emailjs-com';
 
-import about from './../../assets/img/about.jpg'
+import about from './../../assets/img/Footer_Banner.jpg'
 
 function ContactForm(){
     const [success,setSuccess] = useState(false);

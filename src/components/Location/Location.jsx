@@ -13,7 +13,7 @@ function Location() {
               life.
             </p>
             <p className="text-left font-bold mb-4 text-[#d1a13b] text-[18px]">Address:</p>
-            <p className="text-left font-medium mb-8 text-white text-[16px]">Pallivasal Estate, Paracherivu Moolakada, PO, Munnar, Kerala 685612,<br/>Phone: <a href="tel:09495821617" className="text-[#d1a13b]"> 094958 21617</a></p>
+            <p className="text-left font-medium mb-8 text-white text-[16px]">Pallivasal Estate, Paracherivu Moolakada, PO, Munnar, Kerala 685612,<br/>Phone: <a href="tel:09495821617" className="text-[#d1a13b]"> 094958 21617</a><br></br>Email: <a href="mailto:retreat@sitaramayurveda.com" className="text-[#d1a13b]">retreat@sitaramayurveda.com</a> </p>
           </div>
           <div className="w-2/3 sm:w-full md:w-full">
             <iframe

@@ -5,10 +5,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./banner.css";
 
-import bannerOne from "./../../assets/img/banner-1.jpg";
-import bannerTwo from "./../../assets/img/banner-2.jpg";
-import bannerThree from "./../../assets/img/banner-3.jpg";
-import bannerFour from "./../../assets/img/banner-4.jpg";
+import bannerOne from "./../../assets/img/Banner/Banner_1.jpg";
+import bannerTwo from "./../../assets/img/Banner/Banner_2.jpg";
+import bannerThree from "./../../assets/img/Banner/Banner_3.jpg";
+import bannerFour from "./../../assets/img/Banner/Banner_4.jpg";
 
 function Banner() {
   return (
@@ -21,8 +21,8 @@ function Banner() {
       }}
       slidesPerView={1}
       pagination={{ clickable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+      onSwiper={()=>{}}
+      onSlideChange={() => {}}
     >
       <SwiperSlide>
         <img
