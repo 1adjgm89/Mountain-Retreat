@@ -6,11 +6,14 @@ function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <div className="flex-row flex bg-white px-2 py-4 items-center sticky z-10 top-0">
-            <div className="w-1/5">
+        <div className="flex-row flex bg-white px-2 py-4 items-center sticky z-10 top-0 shadow-lg">
+            <div className="lg:w-1/5 sm:w-2/6 md:2/6">
                 <img src={logo} alt="" className="lg:w-[50%] sm:w-full md:w-full"/>
             </div>
-            <div className="w-4/5 flex justify-end pr-8">
+            <div className="lg:w-4/5 md:w-4/6 sm:w-4/6 flex justify-end pr-8">
+              <div>
+              <a href="#contactForm" className="bg-[#295b52] text-white font-medium text-[18px] px-[30px] py-[7px] cursor-pointer transition-all hover:bg-[#d1a13b] hover:text-black mr-4" >Book Now</a>
+              </div>
                 <nav>
         <section className="MOBILE-MENU flex">
           <div
@@ -24,7 +27,7 @@ function Header() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="absolute top-0 right-0 px-8 py-8"
+              className="absolute top-0 right-0 px-8 py-8 cursor-pointer"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
