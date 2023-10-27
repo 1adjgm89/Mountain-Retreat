@@ -9,16 +9,17 @@ function ContactForm(){
         user_name: '',
         user_email: '',
         user_phone: '',
+        user_country: '',
         user_message: '',
       });
     
       const onSubmit = (e) => {
         e.preventDefault();
         send(
-          'service_j6o1h39',
-          'template_h6ej4ed',
+          'service_tor1w8m',
+          'template_xx5vava',
           toSend,
-          'pALPa5p4l1Bno8Bs-'
+          '0XELTdjFJdC2V-7-D'
         )
           .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
@@ -46,11 +47,11 @@ function ContactForm(){
 
 
     return(
-        <div className="flex lg:flex-row justify-center items-center mb-12 sm:flex-col md:flex-col" id="contactForm">
-            <div className="w-8/12 h-full relative">
+        <div className="flex lg:flex-row justify-center items-center lg:mb-12 sm:flex-col md:flex-col" id="contactForm">
+            <div className="lg:w-8/12 sm:w-full md:w-full h-full relative">
                 <img src={about} alt="" className="w-full"/>
             </div>
-            <div className="lg:w-4/12  flex flex-col justify-center md:w-8/12 sm:w-8/12">
+            <div className="lg:w-4/12  flex flex-col justify-center md:w-full sm:w-full">
                 <div className="bg-[#d1a13b] p-12 h-[50%] relative lg:-left-[10em] sm:left-0 md:left-0">
                     <h3 className="text-center text-[40px] font-bold text-white uppercase mb-4">ENQUIRE NOW</h3>
                     {!success ?
@@ -58,6 +59,7 @@ function ContactForm(){
                         <input type="text" placeholder="Name" className="outline-none text-[14px]  block mb-3 w-full h-12 border border-[#858585] p-[10px]" name="user_name" value={toSend.user_name} onChange={handleChange}/>
                         <input type="email" placeholder="Email" className="outline-none text-[14px]  block mb-3 w-full h-12 border border-[#858585] p-[10px]" name="user_email" value={toSend.user_email } onChange={handleChange} required/>
                         <input type="tel" placeholder="Phone" className="outline-none text-[14px]  block mb-3 w-full h-12 border border-[#858585] p-[10px]" name="user_phone" value={toSend.user_phone} onChange={handleChange} required/>
+                        <input type="tel" placeholder="Country" className="outline-none text-[14px]  block mb-3 w-full h-12 border border-[#858585] p-[10px]" name="user_country" value={toSend.user_country} onChange={handleChange} />
                         <input type="textarea" placeholder="Message" className="outline-none text-[14px]  block mb-3 w-full h-12 border border-[#858585] p-[10px]" name="user_message" value={toSend.user_message} onChange={handleChange}/>
                         <input type="submit" value="SEND" className="bg-[#295b52] text-white font-medium text-[18px] px-[30px] py-[7px] cursor-pointer" />
                     </form>
