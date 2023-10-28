@@ -5,10 +5,9 @@ import "swiper/css";
 import 'swiper/css/navigation';
 import './gallery.css'
 
-import bannerOne from "./../../assets/img/Banner/Banner_1.jpg";
-import bannerTwo from "./../../assets/img/Banner/Banner_2.jpg";
-import bannerThree from "./../../assets/img/Banner/Banner_3.jpg";
-import bannerFour from "./../../assets/img/Banner/Banner_4.jpg";
+import bannerOne from "./../../assets/img/G1.png";
+import bannerTwo from "./../../assets/img/G2.png";
+import bannerThree from "./../../assets/img/G4.png";
 import luxuryRoomOne from './../../assets/img/Luxury room/side-view-of-guest-accommodation_48142925317_o.png';
 import luxurySuitOne from './../../assets/img/Luxury suite room/Treetop-Studio-Room-Exterior-web-1-1.jpg';
 import forestDuplex2 from './../../assets/img/Forest Bathing Duplex Cottage/Forest_Bathing Duplex_Cottage_2.jpg';
@@ -50,13 +49,6 @@ function Gallery() {
       <SwiperSlide>
         <img
           src={bannerThree}
-          alt="Sitaram Mountain Retreat"
-          className="w-full lg:max-h-[500px] object-cover"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src={bannerFour}
           alt="Sitaram Mountain Retreat"
           className="w-full lg:max-h-[500px] object-cover"
         />

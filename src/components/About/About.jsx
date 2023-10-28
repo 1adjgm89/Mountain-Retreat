@@ -11,6 +11,7 @@ function About(){
                 <p className="text-[#555354] text-[15px] font-medium mb-5 leading-normal">At Sitaram Mountain Retreat we hold your hand through your journey of healing, rejuvenation, self-exploration and a healthier joyous way of living.</p>
                 <p  className="text-[#555354] text-[15px] font-medium mb-5 leading-normal">Sitaram Mountain Retreat welcomes you to enjoy being in nature’s lap and witnessing the rejuvenating and refreshing sojourn amidst spice plantations adorning the hills. It is set in the beautiful town of Munnar, which in Malayalam and Tamil means “Three rivers”.</p>
                 <p  className="text-[#555354] text-[15px] font-medium mb-5 leading-normal">Munnar is named after the Periavaru, Madupetti and Nallathanni rivers which flow across its land. It is a prime tourist destination in Kerala which is well known for its breathtaking natural abundance. Located on the mountain range of the Western Ghats, Munnar is the ideal hill station for a memorable healing stay.</p>
+                <a href="https://www.tripadvisor.in/Hotel_Review-g303881-d1673211-Reviews-Sitaram_Mountain_Retreat-Munnar_Idukki_District_Kerala.html" target="_blank" rel="noreferrer" className="bg-[#d1a13b] text-white font-medium text-[18px] px-[30px] py-[7px] cursor-pointer transition-all hover:bg-[#295b52] hover:text-white mr-4" >Visit Tripadvisor</a>
             </div>
         </div>
     )
