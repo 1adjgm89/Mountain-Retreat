@@ -56,9 +56,9 @@ function Header() {
               <li className="border-b border-gray-400 my-8 uppercase">
               <a href="#gallery" className="text-[16px] font-medium mr-4 transition-all hover:text-[#295b52d1]" onClick={() => setIsNavOpen((prev) => !prev)}>Gallery</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              {/* <li className="border-b border-gray-400 my-8 uppercase">
               <a href="#aboutRetreat" className="text-[16px] font-medium mr-4 transition-all hover:text-[#295b52d1]" onClick={() => setIsNavOpen((prev) => !prev)}>About Retreat</a>
-              </li>
+              </li> */}
               <li className="border-b border-gray-400 my-8 uppercase">
               <a href="#contactForm" className="text-[16px] font-medium mr-4 transition-all hover:text-[#295b52d1]" onClick={() => setIsNavOpen((prev) => !prev)}>Contact</a>
               </li>
